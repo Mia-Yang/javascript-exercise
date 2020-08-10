@@ -36,5 +36,19 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "name": "javascript-exercise",
+  "description": "安装包依赖",
+  "version": "1.0.0",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mia-Yang/javascript-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mia-Yang/javascript-exercise/issues"
+  },
+  "homepage": "https://github.com/Mia-Yang/javascript-exercise#readme"
 }

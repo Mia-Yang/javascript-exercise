@@ -2,7 +2,7 @@
 import Person from './person';
 
 export default class Worker extends Person {
-  constructor(name, age, klass) {
+  constructor(name, age) {
     super(name, age);
   }
 

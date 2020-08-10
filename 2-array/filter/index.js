@@ -5,7 +5,7 @@ function chooseMultiplesOfThree(collection) {
 
 function chooseNoRepeatNumber(collection) {
   // TODO 2: 在这里写实现代码
-  const arrFilter = collection.filter((item, index, collection) => {
+  const arrFilter = collection.filter((item, index) => {
     return collection.indexOf(item) === index;
   });
   return arrFilter;
