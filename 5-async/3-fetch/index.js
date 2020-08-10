@@ -1,6 +1,13 @@
 function fetchData(url) {
   // <-- start
   // TODO 23: 通过Fetch API实现异步请求
+  const options = {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json'
+    }
+  };
+  return fetch(url, options);
   // end -->
 }
 
