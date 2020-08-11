@@ -9,8 +9,8 @@ export default class Teacher extends Person {
 
   introduce() {
     if (this.klass === undefined) {
-      return `My name is ${this.name}. I am ${this.age} years old. I am a Teacher. I teach No Class.`;
+      return `${super.introduce()} I am a Teacher. I teach No Class.`;
     }
-    return `My name is ${this.name}. I am ${this.age} years old. I am a Teacher. I teach Class ${this.klass}.`;
+    return `${super.introduce()} I am a Teacher. I teach Class ${this.klass}.`;
   }
 }
